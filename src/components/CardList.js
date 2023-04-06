@@ -31,8 +31,10 @@ const CardList = ({ list, type = "horizontal" }) => {
         onNextEnd={({ index }) => {
           clearTimeout(resetTimeout);
           resetTimeout = setTimeout(() => {
-            carouselRef?.current?.goTo(0);
-          }, 4000); // same time
+            if (carouselRef.current) {
+              carouselRef.current.goTo(0);
+            }
+          }, 4000);
         }}
       >
         {list.map((item, index) => (
