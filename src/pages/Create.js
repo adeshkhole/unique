@@ -1,4 +1,3 @@
-
 import React, { useEffect } from "react";
 import Accordion from "../components/base/Accordion";
 import AccordionHeader from "../components/base/AccordionHeader";

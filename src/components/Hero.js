@@ -27,7 +27,9 @@ const Hero = () => {
         <button id="explore" onClick={goExplore}>
           Explore
         </button>
-        <button id="create" onClick={goCreate}>Create</button>
+        <button id="create" onClick={goCreate}>
+          Create
+          </button>
       </div>
     </div>
   );

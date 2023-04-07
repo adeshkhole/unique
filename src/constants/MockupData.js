@@ -210,7 +210,7 @@ export const exploreList = [
   },
 ];
 
-export const hotDropsData = [
+export const  hotDropsData = [
   {
     name: "Test NFT #1",
     description:

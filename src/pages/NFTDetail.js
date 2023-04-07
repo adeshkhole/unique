@@ -42,8 +42,7 @@ const NFTDetail = () => {
 
   
 
-  //!! aciklama karakter sayisi sinirlanmali.
-  //!! scroll sorununa cozum bulunmali.
+
 
   return (
     <div>
